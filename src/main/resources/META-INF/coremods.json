@@ -1,0 +1,4 @@
+{
+    "TickRate Transformer": "transformers/tickrate-transformer.js",
+    "Tick Entity": "transformers/tick-entities.js"
+}

@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="All Rights Reserved"
+#issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]]
+modId="legend_of_crafter"
+version="1.0"
+displayName="Legend of Crafter"
+#updateJSONURL="http://myurl.me/"
+displayURL="https://www.moru3.dev/legend_of_crafter"
+#logoFile="LegendOfCrafter.png"
+# credits="moru3_48"
+authors="moru3_48"
+description='''
+It's a very very cool mod that makes you focus all your attention on the moment you hit the bow and the surroundings become like slow motion.
+'''
+[[dependencies.LegendOfCrafter]] #optional
+   modId="forge"
+   mandatory=true
+   versionRange="[31,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.LegendOfCrafter]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.16.1,1.17)"
+   ordering="NONE"
+   side="BOTH"
